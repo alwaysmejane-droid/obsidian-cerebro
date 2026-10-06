@@ -1,0 +1,2293 @@
+{
+ "format": "kmind-palace",
+ "version": 5,
+ "compat": 4,
+ "id": "palace-pjxvqx25c4b3jfp9",
+ "name": "My home",
+ "createdAt": 1791133593909,
+ "updatedAt": 1791133593909,
+ "wallHeight": 2.8,
+ "ground": {
+  "plinth": [
+   -1.5,
+   -1.6,
+   15.5,
+   13.8
+  ],
+  "slabs": [
+   [
+    -0.1,
+    -0.1,
+    14.1,
+    10.1
+   ],
+   [
+    0.4,
+    10,
+    6,
+    11.6
+   ]
+  ]
+ },
+ "rooms": [
+  {
+   "id": "bedroom",
+   "name": "Bedroom",
+   "rect": [
+    0,
+    0,
+    5,
+    4.6
+   ],
+   "floor": "oak",
+   "label": [
+    0.9,
+    3.7
+   ]
+  },
+  {
+   "id": "bath",
+   "name": "Bathroom",
+   "rect": [
+    5,
+    0,
+    7.6,
+    4.6
+   ],
+   "floor": "tileBath",
+   "label": [
+    6.3,
+    3
+   ]
+  },
+  {
+   "id": "kitchen",
+   "name": "Kitchen",
+   "rect": [
+    7.6,
+    0,
+    14,
+    4.6
+   ],
+   "floor": "tileLarge",
+   "label": [
+    8.5,
+    4.1
+   ]
+  },
+  {
+   "id": "living",
+   "name": "Living room",
+   "rect": [
+    0,
+    4.6,
+    6.4,
+    10
+   ],
+   "floor": "oak",
+   "label": [
+    1.6,
+    9.4
+   ]
+  },
+  {
+   "id": "dining",
+   "name": "Dining room",
+   "rect": [
+    6.4,
+    4.6,
+    10.2,
+    10
+   ],
+   "floor": "oak",
+   "label": [
+    8.3,
+    9.45
+   ]
+  },
+  {
+   "id": "hall",
+   "name": "Entry",
+   "rect": [
+    10.2,
+    4.6,
+    14,
+    5.8
+   ],
+   "floor": "cement",
+   "label": [
+    11.6,
+    5.2
+   ]
+  },
+  {
+   "id": "study",
+   "name": "Study",
+   "rect": [
+    10.2,
+    5.8,
+    14,
+    10
+   ],
+   "floor": "oakWarm",
+   "label": [
+    11.3,
+    9.45
+   ]
+  },
+  {
+   "id": "balcony",
+   "name": "Balcony",
+   "rect": [
+    0.4,
+    10,
+    6,
+    11.6
+   ],
+   "floor": "deck",
+   "label": [
+    1.3,
+    11.05
+   ],
+   "outdoor": true
+  },
+  {
+   "id": "garden",
+   "name": "Garden",
+   "rect": [
+    -1.5,
+    -1.6,
+    15.5,
+    13.8
+   ],
+   "label": null,
+   "outdoor": true
+  }
+ ],
+ "walls": [
+  {
+   "id": "N",
+   "a": [
+    0,
+    0
+   ],
+   "b": [
+    14,
+    0
+   ],
+   "thickness": 0.2,
+   "normal": [
+    0,
+    -1
+   ],
+   "openings": [
+    {
+     "s0": 5.55,
+     "s1": 6.45,
+     "y0": 1.35,
+     "y1": 2.15,
+     "kind": "window"
+    },
+    {
+     "s0": 8.4,
+     "s1": 9.6,
+     "y0": 1.05,
+     "y1": 2.2,
+     "kind": "window"
+    }
+   ],
+   "paint": [
+    {
+     "side": 1,
+     "s0": 0.1,
+     "s1": 4.94,
+     "color": "#b9c2b0"
+    },
+    {
+     "side": 1,
+     "s0": 5.06,
+     "s1": 7.54,
+     "texture": "bathWall",
+     "tile": 0.6
+    },
+    {
+     "side": 1,
+     "s0": 7.66,
+     "s1": 12.75,
+     "y0": 0.9,
+     "y1": 1.5,
+     "texture": "subway",
+     "tile": 0.6
+    }
+   ]
+  },
+  {
+   "id": "W",
+   "a": [
+    0,
+    0
+   ],
+   "b": [
+    0,
+    10
+   ],
+   "thickness": 0.2,
+   "normal": [
+    -1,
+    0
+   ],
+   "openings": [
+    {
+     "s0": 1.3,
+     "s1": 3.1,
+     "y0": 0.55,
+     "y1": 2.35,
+     "kind": "window",
+     "curtain": true,
+     "curtainColor": "#e4d8c4"
+    }
+   ],
+   "paint": [
+    {
+     "side": 1,
+     "s0": 4.66,
+     "s1": 9.9,
+     "color": "#e6dccd"
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "a": [
+    14,
+    0
+   ],
+   "b": [
+    14,
+    10
+   ],
+   "thickness": 0.2,
+   "normal": [
+    1,
+    0
+   ],
+   "openings": [
+    {
+     "s0": 1.4,
+     "s1": 3,
+     "y0": 1,
+     "y1": 2.2,
+     "kind": "window"
+    },
+    {
+     "s0": 4.75,
+     "s1": 5.65,
+     "y0": 0,
+     "y1": 2.15,
+     "kind": "front"
+    },
+    {
+     "s0": 7.2,
+     "s1": 8.8,
+     "y0": 0.8,
+     "y1": 2.25,
+     "kind": "window",
+     "curtain": true,
+     "curtainColor": "#c9d3d6"
+    }
+   ]
+  },
+  {
+   "id": "S",
+   "a": [
+    0,
+    10
+   ],
+   "b": [
+    14,
+    10
+   ],
+   "thickness": 0.2,
+   "normal": [
+    0,
+    1
+   ],
+   "openings": [
+    {
+     "s0": 1,
+     "s1": 5.2,
+     "y0": 0,
+     "y1": 2.35,
+     "kind": "slide",
+     "curtain": true
+    },
+    {
+     "s0": 7.4,
+     "s1": 9.2,
+     "y0": 0.8,
+     "y1": 2.25,
+     "kind": "window",
+     "curtain": true,
+     "curtainColor": "#e4d8c4"
+    },
+    {
+     "s0": 11.3,
+     "s1": 13,
+     "y0": 0.8,
+     "y1": 2.25,
+     "kind": "window"
+    }
+   ]
+  },
+  {
+   "id": "I1",
+   "a": [
+    0,
+    4.6
+   ],
+   "b": [
+    7.66,
+    4.6
+   ],
+   "openings": [
+    {
+     "s0": 3.65,
+     "s1": 4.5,
+     "y0": 0,
+     "y1": 2.1,
+     "kind": "door",
+     "swing": -1
+    },
+    {
+     "s0": 6.6,
+     "s1": 7.35,
+     "y0": 0,
+     "y1": 2.1,
+     "kind": "door",
+     "swing": -1
+    }
+   ],
+   "paint": [
+    {
+     "side": 1,
+     "s0": 0.1,
+     "s1": 6.4,
+     "color": "#e6dccd"
+    }
+   ]
+  },
+  {
+   "id": "I2",
+   "a": [
+    5,
+    0
+   ],
+   "b": [
+    5,
+    4.66
+   ]
+  },
+  {
+   "id": "I3",
+   "a": [
+    7.6,
+    0
+   ],
+   "b": [
+    7.6,
+    4.66
+   ]
+  },
+  {
+   "id": "I4",
+   "a": [
+    10.14,
+    5.8
+   ],
+   "b": [
+    14,
+    5.8
+   ],
+   "openings": [
+    {
+     "s0": 10.45,
+     "s1": 11.3,
+     "y0": 0,
+     "y1": 2.1,
+     "kind": "door",
+     "swing": 1
+    }
+   ]
+  },
+  {
+   "id": "I5",
+   "a": [
+    10.2,
+    5.74
+   ],
+   "b": [
+    10.2,
+    10
+   ],
+   "paint": [
+    {
+     "side": 1,
+     "s0": 5.86,
+     "s1": 9.9,
+     "color": "#6f8075"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "bed-rug",
+   "type": "rug",
+   "room": "bedroom",
+   "pos": [
+    2.3,
+    0,
+    1.95
+   ],
+   "name": "Bedroom rug",
+   "params": {
+    "w": 2.6,
+    "d": 2,
+    "pattern": "bedroom"
+   }
+  },
+  {
+   "id": "bed",
+   "type": "bed",
+   "room": "bedroom",
+   "pos": [
+    2.3,
+    0,
+    1.2
+   ],
+   "name": "Double bed"
+  },
+  {
+   "id": "nightstand-l",
+   "type": "nightstand",
+   "room": "bedroom",
+   "pos": [
+    1.1,
+    0,
+    0.33
+   ],
+   "name": "Nightstand · left",
+   "params": {
+    "side": -1
+   }
+  },
+  {
+   "id": "nightstand-r",
+   "type": "nightstand",
+   "room": "bedroom",
+   "pos": [
+    3.5,
+    0,
+    0.33
+   ],
+   "name": "Nightstand · right",
+   "params": {
+    "side": 1
+   }
+  },
+  {
+   "id": "wardrobe",
+   "type": "wardrobe",
+   "room": "bedroom",
+   "pos": [
+    4.45,
+    0,
+    0.41
+   ],
+   "name": "Wardrobe"
+  },
+  {
+   "id": "bed-bench",
+   "type": "bench",
+   "room": "bedroom",
+   "pos": [
+    2.3,
+    0,
+    2.47
+   ],
+   "name": "Bed bench"
+  },
+  {
+   "id": "dresser",
+   "type": "dresser",
+   "room": "bedroom",
+   "pos": [
+    0.33,
+    0,
+    3.9
+   ],
+   "rot": 90,
+   "name": "Dresser",
+   "params": {
+    "decor": false
+   }
+  },
+  {
+   "id": "dresser-mirror",
+   "type": "roundMirror",
+   "room": "bedroom",
+   "pos": [
+    0.11,
+    1.5,
+    3.9
+   ],
+   "rot": 90,
+   "wall": "W",
+   "name": "Round mirror"
+  },
+  {
+   "id": "art-arch",
+   "type": "painting",
+   "room": "bedroom",
+   "pos": [
+    1.92,
+    2.08,
+    0.105
+   ],
+   "wall": "N",
+   "name": "Painting · arch",
+   "params": {
+    "w": 0.5,
+    "h": 0.66,
+    "art": "arch"
+   }
+  },
+  {
+   "id": "art-botanical",
+   "type": "painting",
+   "room": "bedroom",
+   "pos": [
+    2.68,
+    2.08,
+    0.105
+   ],
+   "wall": "N",
+   "name": "Painting · botanical",
+   "params": {
+    "w": 0.5,
+    "h": 0.66,
+    "art": "botanical"
+   }
+  },
+  {
+   "id": "bed-snake",
+   "type": "plant",
+   "room": "bedroom",
+   "pos": [
+    0.42,
+    0,
+    0.42
+   ],
+   "name": "Snake plant",
+   "params": {
+    "kind": "snake",
+    "h": 0.95,
+    "potR": 0.15,
+    "potH": 0.3,
+    "pot": "potWhite"
+   }
+  },
+  {
+   "id": "bed-plant",
+   "type": "plant",
+   "room": "bedroom",
+   "pos": [
+    4.6,
+    0,
+    3.1
+   ],
+   "name": "Potted plant",
+   "params": {
+    "kind": "bush",
+    "h": 0.7,
+    "potR": 0.14,
+    "potH": 0.28
+   }
+  },
+  {
+   "id": "bathtub",
+   "type": "bathtub",
+   "room": "bath",
+   "pos": [
+    5.93,
+    0,
+    0.5
+   ],
+   "name": "Bathtub"
+  },
+  {
+   "id": "vanity",
+   "type": "vanity",
+   "room": "bath",
+   "pos": [
+    7.15,
+    0,
+    0.34
+   ],
+   "name": "Vanity"
+  },
+  {
+   "id": "bath-mirror",
+   "type": "rectMirror",
+   "room": "bath",
+   "pos": [
+    7.15,
+    1.6,
+    0.105
+   ],
+   "wall": "N",
+   "name": "Bathroom mirror"
+  },
+  {
+   "id": "bath-sconce",
+   "type": "sconce",
+   "room": "bath",
+   "pos": [
+    7.15,
+    2.1,
+    0.1
+   ],
+   "wall": "N"
+  },
+  {
+   "id": "shower",
+   "type": "shower",
+   "room": "bath",
+   "pos": [
+    5.35,
+    1.5,
+    0.1
+   ],
+   "wall": "N",
+   "name": "Shower head"
+  },
+  {
+   "id": "toilet",
+   "type": "toilet",
+   "room": "bath",
+   "pos": [
+    5.4,
+    0,
+    2.1
+   ],
+   "rot": 90,
+   "name": "Toilet"
+  },
+  {
+   "id": "towel-ladder",
+   "type": "towelLadder",
+   "room": "bath",
+   "pos": [
+    7.4,
+    0,
+    2.3
+   ],
+   "rot": -90,
+   "name": "Towel ladder"
+  },
+  {
+   "id": "bath-mat",
+   "type": "rug",
+   "room": "bath",
+   "pos": [
+    5.95,
+    0,
+    1.15
+   ],
+   "name": "Bath mat",
+   "params": {
+    "w": 0.8,
+    "d": 0.5,
+    "pattern": "bath"
+   }
+  },
+  {
+   "id": "laundry",
+   "type": "laundryBasket",
+   "room": "bath",
+   "pos": [
+    7.2,
+    0,
+    3.1
+   ],
+   "name": "Laundry basket"
+  },
+  {
+   "id": "bath-plant",
+   "type": "plant",
+   "room": "bath",
+   "pos": [
+    5.35,
+    0,
+    4.2
+   ],
+   "name": "Potted plant",
+   "params": {
+    "kind": "bush",
+    "h": 0.6,
+    "potR": 0.13,
+    "potH": 0.26,
+    "pot": "potGrey"
+   }
+  },
+  {
+   "id": "kitchen-run",
+   "type": "kitchenRun",
+   "room": "kitchen",
+   "pos": [
+    10.22,
+    0,
+    0.41
+   ],
+   "name": "Cabinets · sink · cooktop",
+   "params": {
+    "length": 5,
+    "sink": -1.22,
+    "cooktop": 0.98
+   }
+  },
+  {
+   "id": "upper-1",
+   "type": "upperCabinet",
+   "room": "kitchen",
+   "pos": [
+    10.22,
+    1.5,
+    0.1
+   ],
+   "wall": "N",
+   "name": "Wall cabinet · left",
+   "params": {
+    "w": 1
+   }
+  },
+  {
+   "id": "upper-2",
+   "type": "upperCabinet",
+   "room": "kitchen",
+   "pos": [
+    12.19,
+    1.5,
+    0.1
+   ],
+   "wall": "N",
+   "name": "Wall cabinet · right",
+   "params": {
+    "w": 1.06
+   }
+  },
+  {
+   "id": "hood",
+   "type": "rangeHood",
+   "room": "kitchen",
+   "pos": [
+    11.2,
+    1.5,
+    0.1
+   ],
+   "wall": "N",
+   "name": "Range hood"
+  },
+  {
+   "id": "open-shelf",
+   "type": "wallShelf",
+   "room": "kitchen",
+   "pos": [
+    8.04,
+    1.3,
+    0.1
+   ],
+   "wall": "N",
+   "name": "Open shelf"
+  },
+  {
+   "id": "herbs",
+   "type": "herbPots",
+   "room": "kitchen",
+   "pos": [
+    9,
+    1.05,
+    0.17
+   ],
+   "wall": "N",
+   "name": "Windowsill herbs"
+  },
+  {
+   "id": "fridge",
+   "type": "fridge",
+   "room": "kitchen",
+   "pos": [
+    13.2,
+    0,
+    0.45
+   ],
+   "name": "Fridge"
+  },
+  {
+   "id": "island",
+   "type": "kitchenIsland",
+   "room": "kitchen",
+   "pos": [
+    10.4,
+    0,
+    2.95
+   ],
+   "name": "Kitchen island",
+   "params": {
+    "decor": false
+   }
+  },
+  {
+   "id": "stool-1",
+   "type": "stool",
+   "room": "kitchen",
+   "pos": [
+    9.75,
+    0,
+    3.78
+   ],
+   "name": "Bar stool · left"
+  },
+  {
+   "id": "stool-2",
+   "type": "stool",
+   "room": "kitchen",
+   "pos": [
+    10.4,
+    0,
+    3.78
+   ],
+   "name": "Bar stool · middle"
+  },
+  {
+   "id": "stool-3",
+   "type": "stool",
+   "room": "kitchen",
+   "pos": [
+    11.05,
+    0,
+    3.78
+   ],
+   "name": "Bar stool · right"
+  },
+  {
+   "id": "island-lamp-1",
+   "type": "pendant",
+   "room": "kitchen",
+   "pos": [
+    9.85,
+    0,
+    2.95
+   ],
+   "name": "Island pendant",
+   "params": {
+    "r": 0.15,
+    "drop": 0.85
+   }
+  },
+  {
+   "id": "island-lamp-2",
+   "type": "pendant",
+   "room": "kitchen",
+   "pos": [
+    10.95,
+    0,
+    2.95
+   ],
+   "name": "Island pendant",
+   "params": {
+    "r": 0.15,
+    "drop": 0.85
+   }
+  },
+  {
+   "id": "living-rug",
+   "type": "rug",
+   "room": "living",
+   "pos": [
+    2.75,
+    0,
+    7.3
+   ],
+   "rot": 90,
+   "name": "Living room rug",
+   "params": {
+    "w": 3.2,
+    "d": 2.6,
+    "pattern": "living"
+   }
+  },
+  {
+   "id": "media",
+   "type": "mediaConsole",
+   "room": "living",
+   "pos": [
+    0.33,
+    0,
+    7.3
+   ],
+   "rot": 90,
+   "name": "TV console · TV",
+   "params": {
+    "decor": false
+   }
+  },
+  {
+   "id": "slats",
+   "type": "slatPanel",
+   "room": "living",
+   "pos": [
+    0.105,
+    0,
+    7.3
+   ],
+   "rot": 90,
+   "wall": "W",
+   "name": "Slat wall"
+  },
+  {
+   "id": "sofa",
+   "type": "sofa",
+   "room": "living",
+   "pos": [
+    4.35,
+    0,
+    7.3
+   ],
+   "rot": -90,
+   "name": "3-seat sofa",
+   "params": {
+    "w": 2.4
+   }
+  },
+  {
+   "id": "coffee-table",
+   "type": "coffeeTable",
+   "room": "living",
+   "pos": [
+    2.8,
+    0,
+    7.3
+   ],
+   "name": "Round coffee table",
+   "params": {
+    "decor": false
+   }
+  },
+  {
+   "id": "armchair",
+   "type": "armchair",
+   "room": "living",
+   "pos": [
+    2.55,
+    0,
+    5.55
+   ],
+   "rot": 20,
+   "name": "Armchair",
+   "params": {
+    "fabric": "mustard"
+   }
+  },
+  {
+   "id": "living-shelf",
+   "type": "bookshelf",
+   "room": "living",
+   "pos": [
+    1,
+    0,
+    4.84
+   ],
+   "name": "Bookshelf",
+   "params": {
+    "w": 1.3,
+    "h": 2.05
+   }
+  },
+  {
+   "id": "living-lamp",
+   "type": "floorLamp",
+   "room": "living",
+   "pos": [
+    3.35,
+    0,
+    5.08
+   ],
+   "name": "Floor lamp"
+  },
+  {
+   "id": "monstera",
+   "type": "plant",
+   "room": "living",
+   "pos": [
+    5,
+    0,
+    5.2
+   ],
+   "name": "Monstera",
+   "params": {
+    "kind": "monstera",
+    "h": 1.1,
+    "potR": 0.2,
+    "potH": 0.34,
+    "pot": "potWhite"
+   }
+  },
+  {
+   "id": "olive",
+   "type": "plant",
+   "room": "living",
+   "pos": [
+    0.5,
+    0,
+    9.45
+   ],
+   "name": "Olive tree",
+   "params": {
+    "kind": "tree",
+    "h": 1.9,
+    "potR": 0.22,
+    "potH": 0.4,
+    "pot": "pot"
+   }
+  },
+  {
+   "id": "side-table",
+   "type": "sideTable",
+   "room": "living",
+   "pos": [
+    4.4,
+    0,
+    8.85
+   ],
+   "name": "Side table · lamp",
+   "params": {
+    "lamp": "sage"
+   }
+  },
+  {
+   "id": "art-mountain",
+   "type": "painting",
+   "room": "living",
+   "pos": [
+    0.105,
+    1.75,
+    5.35
+   ],
+   "rot": 90,
+   "wall": "W",
+   "name": "Painting · mountains",
+   "params": {
+    "w": 0.46,
+    "h": 0.6,
+    "art": "mountain"
+   }
+  },
+  {
+   "id": "art-lines",
+   "type": "painting",
+   "room": "living",
+   "pos": [
+    0.105,
+    1.75,
+    9.3
+   ],
+   "rot": 90,
+   "wall": "W",
+   "name": "Painting · lines",
+   "params": {
+    "w": 0.46,
+    "h": 0.6,
+    "art": "lines"
+   }
+  },
+  {
+   "id": "cat",
+   "type": "cat",
+   "room": "living",
+   "pos": [
+    2,
+    0,
+    8.35
+   ],
+   "rot": 30,
+   "name": "Ginger cat · Dumpling"
+  },
+  {
+   "id": "dining-rug",
+   "type": "rug",
+   "room": "dining",
+   "pos": [
+    8.3,
+    0,
+    7.3
+   ],
+   "name": "Dining rug",
+   "params": {
+    "w": 2.4,
+    "d": 3.1,
+    "pattern": "jute"
+   }
+  },
+  {
+   "id": "dining-table",
+   "type": "diningTable",
+   "room": "dining",
+   "pos": [
+    8.3,
+    0,
+    7.3
+   ],
+   "rot": 90,
+   "name": "Dining table",
+   "params": {
+    "decor": false
+   }
+  },
+  {
+   "id": "chair-w1",
+   "type": "chair",
+   "room": "dining",
+   "pos": [
+    7.55,
+    0,
+    6.85
+   ],
+   "rot": 90,
+   "name": "Dining chair · west 1"
+  },
+  {
+   "id": "chair-w2",
+   "type": "chair",
+   "room": "dining",
+   "pos": [
+    7.55,
+    0,
+    7.75
+   ],
+   "rot": 90,
+   "name": "Dining chair · west 2"
+  },
+  {
+   "id": "chair-e1",
+   "type": "chair",
+   "room": "dining",
+   "pos": [
+    9.05,
+    0,
+    6.85
+   ],
+   "rot": -90,
+   "name": "Dining chair · east 1"
+  },
+  {
+   "id": "chair-e2",
+   "type": "chair",
+   "room": "dining",
+   "pos": [
+    9.05,
+    0,
+    7.75
+   ],
+   "rot": -90,
+   "name": "Dining chair · east 2"
+  },
+  {
+   "id": "chair-n",
+   "type": "chair",
+   "room": "dining",
+   "pos": [
+    8.3,
+    0,
+    6
+   ],
+   "name": "Dining chair · north"
+  },
+  {
+   "id": "chair-s",
+   "type": "chair",
+   "room": "dining",
+   "pos": [
+    8.3,
+    0,
+    8.6
+   ],
+   "rot": 180,
+   "name": "Dining chair · south"
+  },
+  {
+   "id": "dining-lamp",
+   "type": "pendant",
+   "room": "dining",
+   "pos": [
+    8.3,
+    0,
+    7.3
+   ],
+   "name": "Dining pendant",
+   "params": {
+    "r": 0.3,
+    "drop": 0.95,
+    "finish": "brass"
+   }
+  },
+  {
+   "id": "sideboard",
+   "type": "sideboard",
+   "room": "dining",
+   "pos": [
+    6.64,
+    0,
+    6.9
+   ],
+   "rot": 90,
+   "name": "Sideboard",
+   "params": {
+    "decor": false
+   }
+  },
+  {
+   "id": "fiddle",
+   "type": "plant",
+   "room": "dining",
+   "pos": [
+    9.8,
+    0,
+    9.55
+   ],
+   "name": "Fiddle-leaf fig",
+   "params": {
+    "kind": "tree",
+    "h": 1.6,
+    "potR": 0.2,
+    "potH": 0.38,
+    "pot": "potGrey"
+   }
+  },
+  {
+   "id": "dining-plant",
+   "type": "plant",
+   "room": "dining",
+   "pos": [
+    6.65,
+    0,
+    8.35
+   ],
+   "name": "Potted plant",
+   "params": {
+    "kind": "bush",
+    "h": 0.8,
+    "potR": 0.16,
+    "potH": 0.32,
+    "pot": "pot"
+   }
+  },
+  {
+   "id": "shoe-bench",
+   "type": "shoeBench",
+   "room": "hall",
+   "pos": [
+    13.7,
+    0,
+    3.65
+   ],
+   "rot": -90,
+   "name": "Shoe bench"
+  },
+  {
+   "id": "coat-rack",
+   "type": "coatRack",
+   "room": "hall",
+   "pos": [
+    13.6,
+    0,
+    4.45
+   ],
+   "name": "Coat rack"
+  },
+  {
+   "id": "umbrella",
+   "type": "umbrellaStand",
+   "room": "hall",
+   "pos": [
+    13.2,
+    0,
+    5.52
+   ],
+   "name": "Umbrella stand"
+  },
+  {
+   "id": "door-mat",
+   "type": "rug",
+   "room": "hall",
+   "pos": [
+    13.4,
+    0,
+    5.2
+   ],
+   "rot": 90,
+   "name": "Doormat",
+   "params": {
+    "w": 0.9,
+    "d": 0.6,
+    "pattern": "jute"
+   }
+  },
+  {
+   "id": "study-rug",
+   "type": "rug",
+   "room": "study",
+   "pos": [
+    12,
+    0,
+    8.1
+   ],
+   "name": "Study rug",
+   "params": {
+    "w": 2.6,
+    "d": 2,
+    "pattern": "study"
+   }
+  },
+  {
+   "id": "study-shelf-l",
+   "type": "bookshelf",
+   "room": "study",
+   "pos": [
+    10.43,
+    0,
+    7.55
+   ],
+   "rot": 90,
+   "name": "Bookshelf · left",
+   "params": {
+    "w": 1.2,
+    "h": 1.36,
+    "rows": 3,
+    "wood": "walnut"
+   }
+  },
+  {
+   "id": "study-shelf-r",
+   "type": "bookshelf",
+   "room": "study",
+   "pos": [
+    10.43,
+    0,
+    8.77
+   ],
+   "rot": 90,
+   "name": "Bookshelf · right",
+   "params": {
+    "w": 1.2,
+    "h": 1.36,
+    "rows": 3,
+    "wood": "walnut"
+   }
+  },
+  {
+   "id": "shelf-plant",
+   "type": "plant",
+   "room": "study",
+   "pos": [
+    10.45,
+    1.36,
+    7.2
+   ],
+   "name": "Small potted plant",
+   "solid": false,
+   "params": {
+    "kind": "bush",
+    "h": 0.36,
+    "potR": 0.08,
+    "potH": 0.13,
+    "pot": "terracotta"
+   }
+  },
+  {
+   "id": "shelf-pampas",
+   "type": "plant",
+   "room": "study",
+   "pos": [
+    10.45,
+    1.36,
+    9.1
+   ],
+   "name": "Dried flowers",
+   "solid": false,
+   "params": {
+    "kind": "pampas",
+    "h": 0.6,
+    "potR": 0.06,
+    "potH": 0.2,
+    "pot": "ceramic"
+   }
+  },
+  {
+   "id": "art-sea",
+   "type": "painting",
+   "room": "study",
+   "pos": [
+    10.29,
+    1.95,
+    8.2
+   ],
+   "rot": 90,
+   "wall": "I5",
+   "name": "Painting · sea",
+   "params": {
+    "w": 0.6,
+    "h": 0.45,
+    "art": "sea"
+   }
+  },
+  {
+   "id": "desk",
+   "type": "desk",
+   "room": "study",
+   "pos": [
+    12.7,
+    0,
+    6.22
+   ],
+   "name": "Desk",
+   "params": {
+    "decor": false
+   }
+  },
+  {
+   "id": "office-chair",
+   "type": "officeChair",
+   "room": "study",
+   "pos": [
+    12.7,
+    0,
+    6.95
+   ],
+   "rot": 180,
+   "name": "Office chair"
+  },
+  {
+   "id": "reading-chair",
+   "type": "armchair",
+   "room": "study",
+   "pos": [
+    13.15,
+    0,
+    9.2
+   ],
+   "rot": -140,
+   "name": "Reading chair",
+   "params": {
+    "fabric": "navy",
+    "wood": "walnut"
+   }
+  },
+  {
+   "id": "reading-lamp",
+   "type": "floorLamp",
+   "room": "study",
+   "pos": [
+    13.6,
+    0,
+    9.62
+   ],
+   "name": "Reading lamp",
+   "params": {
+    "shade": "warm"
+   }
+  },
+  {
+   "id": "globe",
+   "type": "globeTable",
+   "room": "study",
+   "pos": [
+    12.3,
+    0,
+    9.5
+   ],
+   "name": "Globe"
+  },
+  {
+   "id": "study-plant",
+   "type": "plant",
+   "room": "study",
+   "pos": [
+    13.62,
+    0,
+    6.75
+   ],
+   "name": "Potted plant",
+   "params": {
+    "kind": "tree",
+    "h": 1.5,
+    "potR": 0.18,
+    "potH": 0.34,
+    "pot": "potWhite"
+   }
+  },
+  {
+   "id": "railing",
+   "type": "railing",
+   "room": "balcony",
+   "pos": [
+    0,
+    0,
+    0
+   ],
+   "name": "Glass railing",
+   "params": {
+    "segments": [
+     [
+      0.45,
+      11.55,
+      5.95,
+      11.55
+     ],
+     [
+      0.45,
+      10.12,
+      0.45,
+      11.55
+     ],
+     [
+      5.95,
+      10.12,
+      5.95,
+      11.55
+     ]
+    ]
+   }
+  },
+  {
+   "id": "outdoor-rug",
+   "type": "rug",
+   "room": "balcony",
+   "pos": [
+    4.35,
+    0,
+    10.9
+   ],
+   "name": "Outdoor rug",
+   "params": {
+    "w": 2,
+    "d": 1,
+    "pattern": "outdoor"
+   }
+  },
+  {
+   "id": "lounge-1",
+   "type": "loungeChair",
+   "room": "balcony",
+   "pos": [
+    3.55,
+    0,
+    10.9
+   ],
+   "rot": 90,
+   "name": "Lounge chair · left"
+  },
+  {
+   "id": "lounge-2",
+   "type": "loungeChair",
+   "room": "balcony",
+   "pos": [
+    5.2,
+    0,
+    10.9
+   ],
+   "rot": -90,
+   "name": "Lounge chair · right"
+  },
+  {
+   "id": "bistro",
+   "type": "sideTable",
+   "room": "balcony",
+   "pos": [
+    4.35,
+    0,
+    10.9
+   ],
+   "name": "Bistro table",
+   "params": {
+    "r": 0.22,
+    "h": 0.45,
+    "top": "oak",
+    "cup": true
+   }
+  },
+  {
+   "id": "lemon",
+   "type": "plant",
+   "room": "balcony",
+   "pos": [
+    0.85,
+    0,
+    11.2
+   ],
+   "name": "Lemon tree",
+   "params": {
+    "kind": "tree",
+    "h": 1.5,
+    "potR": 0.2,
+    "potH": 0.4,
+    "pot": "pot"
+   }
+  },
+  {
+   "id": "planter",
+   "type": "planter",
+   "room": "balcony",
+   "pos": [
+    1.95,
+    0,
+    11.35
+   ],
+   "name": "Planter",
+   "params": {
+    "w": 1.4
+   }
+  },
+  {
+   "id": "string-lights",
+   "type": "stringLights",
+   "room": "balcony",
+   "pos": [
+    0,
+    0,
+    0
+   ],
+   "name": "String lights",
+   "params": {
+    "from": [
+     0.5,
+     11.5
+    ],
+    "to": [
+     5.9,
+     11.5
+    ]
+   }
+  },
+  {
+   "id": "tree-sw",
+   "type": "tree",
+   "room": "garden",
+   "pos": [
+    -0.5,
+    -0.15,
+    12.7
+   ],
+   "name": "Big tree · southwest",
+   "params": {
+    "h": 3.4,
+    "variant": 0
+   }
+  },
+  {
+   "id": "tree-ne",
+   "type": "tree",
+   "room": "garden",
+   "pos": [
+    15,
+    -0.15,
+    -0.6
+   ],
+   "name": "Big tree · northeast",
+   "params": {
+    "h": 3.8,
+    "variant": 1
+   }
+  },
+  {
+   "id": "tree-nw",
+   "type": "tree",
+   "room": "garden",
+   "pos": [
+    -0.7,
+    -0.15,
+    -0.6
+   ],
+   "name": "Small tree",
+   "params": {
+    "h": 2.6,
+    "variant": 2
+   }
+  },
+  {
+   "id": "bush-1",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    7.4,
+    -0.15,
+    12.9
+   ],
+   "rot": 0,
+   "params": {
+    "r": 0.45
+   }
+  },
+  {
+   "id": "bush-2",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    8.4,
+    -0.15,
+    13.1
+   ],
+   "rot": 67,
+   "params": {
+    "r": 0.35
+   }
+  },
+  {
+   "id": "bush-3",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    9.4,
+    -0.15,
+    12.95
+   ],
+   "rot": 134,
+   "params": {
+    "r": 0.5
+   }
+  },
+  {
+   "id": "bush-4",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    12.4,
+    -0.15,
+    13
+   ],
+   "rot": 201,
+   "params": {
+    "r": 0.42
+   }
+  },
+  {
+   "id": "bush-5",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    13.4,
+    -0.15,
+    12.9
+   ],
+   "rot": 268,
+   "params": {
+    "r": 0.38
+   }
+  },
+  {
+   "id": "bush-6",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    15,
+    -0.15,
+    12.2
+   ],
+   "rot": 335,
+   "params": {
+    "r": 0.5
+   }
+  },
+  {
+   "id": "bush-7",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    15,
+    -0.15,
+    2.2
+   ],
+   "rot": 42,
+   "params": {
+    "r": 0.4
+   }
+  },
+  {
+   "id": "bush-8",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    -0.8,
+    -0.15,
+    5
+   ],
+   "rot": 109,
+   "params": {
+    "r": 0.45
+   }
+  },
+  {
+   "id": "bush-9",
+   "type": "bush",
+   "room": "garden",
+   "pos": [
+    -0.8,
+    -0.15,
+    7.8
+   ],
+   "rot": 176,
+   "params": {
+    "r": 0.4
+   }
+  },
+  {
+   "id": "step",
+   "type": "step",
+   "room": "garden",
+   "pos": [
+    14.35,
+    -0.15,
+    5.2
+   ],
+   "params": {
+    "w": 0.5,
+    "d": 1.2,
+    "h": 0.12
+   }
+  },
+  {
+   "id": "stone-1",
+   "type": "stone",
+   "room": "garden",
+   "pos": [
+    14.85,
+    -0.15,
+    5.1
+   ]
+  },
+  {
+   "id": "stone-2",
+   "type": "stone",
+   "room": "garden",
+   "pos": [
+    15.15,
+    -0.15,
+    4.55
+   ]
+  },
+  {
+   "id": "stone-3",
+   "type": "stone",
+   "room": "garden",
+   "pos": [
+    14.9,
+    -0.15,
+    3.95
+   ]
+  },
+  {
+   "id": "lamp-post",
+   "type": "lampPost",
+   "room": "garden",
+   "pos": [
+    14.95,
+    -0.15,
+    6.3
+   ],
+   "name": "Garden lamp"
+  },
+  {
+   "id": "mailbox",
+   "type": "mailbox",
+   "room": "garden",
+   "pos": [
+    15.1,
+    -0.15,
+    7.4
+   ],
+   "name": "Mailbox"
+  },
+  {
+   "id": "dresser~d0",
+   "type": "plant",
+   "parent": "dresser",
+   "pos": [
+    0.28,
+    0.78,
+    -0.04
+   ],
+   "rot": 0,
+   "room": "bedroom",
+   "name": "干花",
+   "params": {
+    "kind": "pampas",
+    "h": 0.55,
+    "potR": 0.06,
+    "potH": 0.16,
+    "pot": "potWhite"
+   }
+  },
+  {
+   "id": "island~d0",
+   "type": "fruitBowl",
+   "parent": "island",
+   "pos": [
+    -0.35,
+    0.9,
+    0.05
+   ],
+   "rot": 0,
+   "room": "kitchen"
+  },
+  {
+   "id": "island~d1",
+   "type": "plant",
+   "parent": "island",
+   "pos": [
+    0.55,
+    0.9,
+    0
+   ],
+   "rot": 0,
+   "room": "kitchen",
+   "name": "鲜花",
+   "params": {
+    "kind": "flowers",
+    "h": 0.45,
+    "potR": 0.05,
+    "potH": 0.16,
+    "pot": "glass"
+   }
+  },
+  {
+   "id": "media~d0",
+   "type": "plant",
+   "parent": "media",
+   "pos": [
+    -0.8200000000000001,
+    0.54,
+    0
+   ],
+   "rot": 0,
+   "room": "living",
+   "name": "虎尾兰",
+   "params": {
+    "kind": "snake",
+    "h": 0.55,
+    "potR": 0.08,
+    "potH": 0.14,
+    "pot": "potWhite"
+   }
+  },
+  {
+   "id": "media~d1",
+   "type": "bookStack",
+   "parent": "media",
+   "pos": [
+    0.75,
+    0.54,
+    0.02
+   ],
+   "rot": 0,
+   "room": "living",
+   "params": {
+    "colors": [
+     "terracotta",
+     "navy"
+    ]
+   }
+  },
+  {
+   "id": "media~d2",
+   "type": "vase",
+   "parent": "media",
+   "pos": [
+    0.88,
+    0.54,
+    -0.05
+   ],
+   "rot": 0,
+   "room": "living",
+   "params": {
+    "color": "ceramic",
+    "h": 0.26
+   }
+  },
+  {
+   "id": "coffee-table~d0",
+   "type": "bookStack",
+   "parent": "coffee-table",
+   "pos": [
+    -0.12,
+    0.38,
+    0.08
+   ],
+   "rot": 17,
+   "room": "living",
+   "params": {
+    "colors": [
+     "navy",
+     "cream"
+    ]
+   }
+  },
+  {
+   "id": "coffee-table~d1",
+   "type": "tray",
+   "parent": "coffee-table",
+   "pos": [
+    0.15,
+    0.38,
+    -0.1
+   ],
+   "rot": 0,
+   "room": "living"
+  },
+  {
+   "id": "coffee-table~d1~d0",
+   "type": "cup",
+   "parent": "coffee-table~d1",
+   "pos": [
+    -0.03,
+    0.015,
+    0.02
+   ],
+   "rot": 0,
+   "room": "living",
+   "params": {
+    "color": "ceramic"
+   }
+  },
+  {
+   "id": "coffee-table~d1~d1",
+   "type": "cup",
+   "parent": "coffee-table~d1",
+   "pos": [
+    0.05,
+    0.015,
+    -0.04
+   ],
+   "rot": 0,
+   "room": "living",
+   "params": {
+    "color": "terracotta"
+   }
+  },
+  {
+   "id": "coffee-table~d2",
+   "type": "plant",
+   "parent": "coffee-table",
+   "pos": [
+    0.05,
+    0.38,
+    0.2
+   ],
+   "rot": 0,
+   "room": "living",
+   "name": "干花",
+   "params": {
+    "kind": "pampas",
+    "h": 0.5,
+    "potR": 0.05,
+    "potH": 0.16,
+    "pot": "ceramic"
+   }
+  },
+  {
+   "id": "dining-table~d0",
+   "type": "plant",
+   "parent": "dining-table",
+   "pos": [
+    0,
+    0.755,
+    0
+   ],
+   "rot": 0,
+   "room": "dining",
+   "name": "鲜花",
+   "params": {
+    "kind": "flowers",
+    "h": 0.5,
+    "potR": 0.06,
+    "potH": 0.18,
+    "pot": "ceramic"
+   }
+  },
+  {
+   "id": "dining-table~d1",
+   "type": "candle",
+   "parent": "dining-table",
+   "pos": [
+    -0.28,
+    0.755,
+    0.02
+   ],
+   "rot": 0,
+   "room": "dining"
+  },
+  {
+   "id": "dining-table~d2",
+   "type": "candle",
+   "parent": "dining-table",
+   "pos": [
+    0.28,
+    0.755,
+    0.02
+   ],
+   "rot": 0,
+   "room": "dining"
+  },
+  {
+   "id": "dining-table~d3",
+   "type": "placeSetting",
+   "parent": "dining-table",
+   "pos": [
+    -0.5,
+    0.755,
+    0.3
+   ],
+   "rot": 0,
+   "room": "dining"
+  },
+  {
+   "id": "dining-table~d4",
+   "type": "placeSetting",
+   "parent": "dining-table",
+   "pos": [
+    0.5,
+    0.755,
+    0.3
+   ],
+   "rot": 0,
+   "room": "dining"
+  },
+  {
+   "id": "dining-table~d5",
+   "type": "placeSetting",
+   "parent": "dining-table",
+   "pos": [
+    -0.5,
+    0.755,
+    -0.3
+   ],
+   "rot": 180,
+   "room": "dining"
+  },
+  {
+   "id": "dining-table~d6",
+   "type": "placeSetting",
+   "parent": "dining-table",
+   "pos": [
+    0.5,
+    0.755,
+    -0.3
+   ],
+   "rot": 180,
+   "room": "dining"
+  },
+  {
+   "id": "sideboard~d0",
+   "type": "tableLamp",
+   "parent": "sideboard",
+   "pos": [
+    -0.65,
+    0.78,
+    0
+   ],
+   "rot": 0,
+   "room": "dining",
+   "params": {
+    "h": 0.52,
+    "shade": "warm",
+    "base": "terracotta"
+   }
+  },
+  {
+   "id": "sideboard~d1",
+   "type": "bookStack",
+   "parent": "sideboard",
+   "pos": [
+    0.1,
+    0.78,
+    0.02
+   ],
+   "rot": 0,
+   "room": "dining",
+   "params": {
+    "colors": [
+     "mustard",
+     "cream"
+    ]
+   }
+  },
+  {
+   "id": "sideboard~d2",
+   "type": "plant",
+   "parent": "sideboard",
+   "pos": [
+    0.68,
+    0.78,
+    -0.02
+   ],
+   "rot": 0,
+   "room": "dining",
+   "name": "干花",
+   "params": {
+    "kind": "pampas",
+    "h": 0.75,
+    "potR": 0.07,
+    "potH": 0.26,
+    "pot": "potGrey"
+   }
+  },
+  {
+   "id": "desk~d0",
+   "type": "plant",
+   "parent": "desk",
+   "pos": [
+    0.62,
+    0.755,
+    -0.22
+   ],
+   "rot": 0,
+   "room": "study",
+   "name": "绿植",
+   "params": {
+    "kind": "bush",
+    "h": 0.26,
+    "potR": 0.06,
+    "potH": 0.1,
+    "pot": "potWhite"
+   }
+  },
+  {
+   "id": "desk~d1",
+   "type": "cup",
+   "parent": "desk",
+   "pos": [
+    0.5,
+    0.755,
+    0.12
+   ],
+   "rot": 0,
+   "room": "study",
+   "name": "马克杯",
+   "params": {
+    "color": "terracotta",
+    "r": 0.035,
+    "h": 0.09
+   }
+  }
+ ],
+ "color": "#c46d4d"
+}

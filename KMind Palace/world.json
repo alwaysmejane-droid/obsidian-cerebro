@@ -1,0 +1,32 @@
+{
+ "format": "kmind-palace-world",
+ "version": 2,
+ "compat": 1,
+ "id": "world-cv59xeyepz24wrwr",
+ "name": "Memory world",
+ "createdAt": 1791133593946,
+ "updatedAt": 1791133593953,
+ "regions": [
+  {
+   "id": "region-70809xshwjmv8dzw",
+   "name": "Island town",
+   "theme": "island",
+   "seed": 788199,
+   "origin": [
+    0,
+    0
+   ],
+   "createdAt": 1791133593946,
+   "palaces": [
+    {
+     "palaceId": "palace-pjxvqx25c4b3jfp9",
+     "pos": [
+      7,
+      -20
+     ],
+     "rot": 0
+    }
+   ]
+  }
+ ]
+}
