@@ -28,6 +28,15 @@ Cada idea debe quedar escrita como **reglas exactas** (sin interpretación) para
 ## Embudo (igual para todos)
 Propuesta → programar → backtest (comisiones y deslizamiento reales, sin mirar el futuro) → datos que nunca vio (OOS) y walk-forward → debe funcionar en **varias monedas** → corrección por probar muchas ideas → intento de romperla → paper 4–8 semanas → decisión real solo con OK explícito.
 
+## Organización por departamentos (decisión 2026-10-07)
+Meta final: lo que sobreviva alimenta el bot de **Bitunix Lab** (paper realista) y luego el real, solo con OK explícito. Idea: 1–3 estrategias por modalidad (swing, day, scalping).
+1. **Traders, en parejas** (ninguno tiene la última palabra; la idea sale solo si los dos están de acuerdo y se guarda el desacuerdo): pareja Swing, pareja Day trading, pareja Scalping, con estilos distintos (ICT, SMC, order flow, tendencia, reversión).
+2. **Backtesting** (2 personas): programan y prueban con reglas fijas.
+3. **Destrucción** (2 personas): intentan romper cada estrategia.
+4. **Bitunix Lab** (paper realista, 4–8 semanas).
+5. **El bot.** Real solo con autorización de la jefa.
+Compuertas: pareja de acuerdo → backtest pasa → destrucción no la rompe → paper realista → OK de la jefa.
+
 ## Ideas tomadas de otro bot (ejemplo, captura 2026-10-07)
 Un bot de terceros ("Búho Bot") muestra ideas útiles. Sus cifras (64%, 71%) son suyas y no verificadas; solo copiamos el concepto.
 - **Filtro por sesión** (Asia, Londres, NY mañana, NY tarde, noche) con la tasa de acierto medida de cada una → nosotros la medimos con datos propios.
