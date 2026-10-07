@@ -347,15 +347,31 @@ def render_video_silent(scenes, tmpdir):
     list_file = os.path.join(tmpdir, "frames.txt")
     frame_idx = 0
 
+    # Pre-cache: render one base frame per scene (alpha=1.0) to avoid
+    # re-processing photos and gradients on every frame.
+    scene_bases = []
+    black = Image.new("RGB", (WIDTH, HEIGHT), (0, 0, 0))
+    for scene in scenes:
+        base = render_scene(scene, alpha=1.0)
+        scene_bases.append(base)
+
     with open(list_file, "w") as lf:
-        for scene in scenes:
+        for scene, base in zip(scenes, scene_bases):
             duration = float(scene.get("duracion", 3.0))
             total_f = max(int(duration * FPS), 1)
             for fi in range(total_f):
-                alpha = (fi / max(fade_f, 1) if fi < fade_f
-                         else (total_f - fi) / max(fade_f, 1) if fi >= total_f - fade_f
-                         else 1.0)
-                img = render_scene(scene, alpha=alpha)
+                if fi < fade_f:
+                    alpha = fi / max(fade_f, 1)
+                elif fi >= total_f - fade_f:
+                    alpha = (total_f - fi) / max(fade_f, 1)
+                else:
+                    alpha = 1.0
+
+                if alpha < 0.999:
+                    img = Image.blend(black, base, min(max(alpha, 0.0), 1.0))
+                else:
+                    img = base
+
                 fp = os.path.join(tmpdir, f"f{frame_idx:07d}.png")
                 img.save(fp, "PNG")
                 lf.write(f"file '{fp}'\n")
