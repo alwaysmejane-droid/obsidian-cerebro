@@ -28,6 +28,13 @@ Cada idea debe quedar escrita como **reglas exactas** (sin interpretación) para
 ## Embudo (igual para todos)
 Propuesta → programar → backtest (comisiones y deslizamiento reales, sin mirar el futuro) → datos que nunca vio (OOS) y walk-forward → debe funcionar en **varias monedas** → corrección por probar muchas ideas → intento de romperla → paper 4–8 semanas → decisión real solo con OK explícito.
 
+## Ideas tomadas de otro bot (ejemplo, captura 2026-10-07)
+Un bot de terceros ("Búho Bot") muestra ideas útiles. Sus cifras (64%, 71%) son suyas y no verificadas; solo copiamos el concepto.
+- **Filtro por sesión** (Asia, Londres, NY mañana, NY tarde, noche) con la tasa de acierto medida de cada una → nosotros la medimos con datos propios.
+- **Reglas de riesgo diario:** máximo de operaciones al día, parar tras ganar una, parar tras 2 pérdidas seguidas, no operar antes/después de noticias fuertes (CPI, FOMC), fines de semana aparte.
+- **Estrategia ejemplo:** barrida de liquidez + agotamiento, con TP en el POC → candidata para los mineros ICT y order flow.
+- **Panel de control:** encendido/apagado, resultado de hoy y de la semana, operación abierta.
+
 ## Pendiente
 - [ ] Corregir el error del paper en `bitunix-lab` (mira la vela de la señal). Falta autorización.
 - [ ] Bajar datos de velas 1m de Nivel 1 y 2.
