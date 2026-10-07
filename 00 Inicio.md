@@ -25,6 +25,11 @@ Mapa de todo. Una nota por tema; las ideas nuevas caen primero en [[Ideas suelta
 ## 🙋 06 Yo
 - [[Sobre mí y cómo trabajamos]] · [[Cómo anotar con Claude]]
 
+## 🐾 07 Perritas → [[Perritas]]
+- [[Popi]] — pitbull mix, la naca, cumple 16 de junio
+- [[Luna]] — shih tzu, la fresita, diva retirada de Miami
+- [[La fresa y la naca]] — concepto del canal de Instagram
+
 ## Reglas para mí
 - Respuestas breves. Nada en dinero real sin decirlo explícito.
 - No confío en números sin verificar.

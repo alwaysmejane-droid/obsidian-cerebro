@@ -10,9 +10,16 @@ Crea reels verticales MP4 (1080×1920, 30fps) usando `~/.claude/skills/reels-ani
 ## Contexto del canal
 
 - **Canal:** "La fresa y la naca" — contenido perrero casual, divertido, con corazón
-- **Popi:** pitbull mix, "la naca", energética, caótica, glotona 🐶
-- **Luna:** shih tzu, "la fresita", diva, dramática, presumida 🌸
 - **Tono:** mezcla CDMX + ternura, nada corporativo, mucho emoji
+
+### Popi 🐶 — la naca
+Sofía "Popi". Pitbull mix (perro sato). ~3 años, cumple **16 de junio**. Adoptada en enero 2024, shelter Riverside Jacksonville, $22. Dormilona, cariñosa, traviesa. Se cuela a todas las camas. No trabaja, no resuelve, "grande por gusto" — la mantenida oficial.
+
+### Luna 👑 — la fresita
+Shih tzu pequeña. La tiene Suki (pareja de Jane) desde hace 8 años; la encontró en la calle en Miami. Diva socialité retirada: antes dueña de joyerías en Miami, llena de contactos y glamour. Mudarse a Jacksonville fue su "exilio forzado". Tiene su trono (la cama de la sala, intocable). Celosa de su espacio, pone caras, sostiene la economía del hogar.
+
+### La dinámica
+Luna mantiene a Popi. Popi es su carga: sin estudios, sin mundo, sin aportar nada. Las dos son rescatadas (Popi del shelter, Luna de la calle).
 
 ## Cuándo usar cada estilo de escena
 
