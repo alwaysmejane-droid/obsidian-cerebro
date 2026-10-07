@@ -37,6 +37,14 @@ Meta final: lo que sobreviva alimenta el bot de **Bitunix Lab** (paper realista)
 5. **El bot.** Real solo con autorización de la jefa.
 Compuertas: pareja de acuerdo → backtest pasa → destrucción no la rompe → paper realista → OK de la jefa.
 
+## Alas y parejas (2026-10-07, versión grande)
+- **Swing:** pareja SMC (Papito, Maritza) · pareja Tendencia (Osvaldo, Yuleidys)
+- **Day trading:** pareja ICT (Tatico, Yadira) · pareja Perfil de volumen (Reinier, Odalys)
+- **Scalping:** pareja Order flow (Chicho, Dayana) · pareja Reversión (Leonel, Mailyn)
+- **Backtest:** Yosvani (programa), Barbarito (prueba) · **Destrucción:** La Caridad, Orestes · **Lab/Datos:** Mireya, Ñico · **Recepción/vigilancia:** Cheo
+- Panel: `http://127.0.0.1:8797` (código en `PROYECTO\Agentes`). Lista de estrategias en `Agentes\estrategias.json`.
+- Hoy solo Cheo (vigilancia, sin IA) es real; los demás son dibujo hasta que se programen. Plan: cada agente = proceso en el PC, usando modelos gratis vía OmniRoute para ideas y texto, y código sin IA para pruebas.
+
 ## Ideas tomadas de otro bot (ejemplo, captura 2026-10-07)
 Un bot de terceros ("Búho Bot") muestra ideas útiles. Sus cifras (64%, 71%) son suyas y no verificadas; solo copiamos el concepto.
 - **Filtro por sesión** (Asia, Londres, NY mañana, NY tarde, noche) con la tasa de acierto medida de cada una → nosotros la medimos con datos propios.
@@ -44,8 +52,14 @@ Un bot de terceros ("Búho Bot") muestra ideas útiles. Sus cifras (64%, 71%) so
 - **Estrategia ejemplo:** barrida de liquidez + agotamiento, con TP en el POC → candidata para los mineros ICT y order flow.
 - **Panel de control:** encendido/apagado, resultado de hoy y de la semana, operación abierta.
 
+## Runner y paper automático (2026-10-07)
+- `Agentes\runner.py` (sin tokens de Claude): 18 agentes reales + Lázaro y Migdalia (paper). Motor en `Agentes\motor.py`.
+- La que sobrevive a destrucción entra **sola** a paper realista (comisión normal, costos x1.5, 1 vela de retraso, solo operaciones cerradas). Mínimo 28 días y 30 operaciones; si gana queda "lista para tu OK". **Tu OK es solo para el real.**
+- Resultados: [[Oficoda - resultados]].
+
 ## Pendiente
-- [ ] Corregir el error del paper en `bitunix-lab` (mira la vela de la señal). Falta autorización.
+- [x] Corregir el error del paper en `bitunix-lab` (2026-10-07): ahora solo mira velas cerradas DESPUÉS de la señal, entra con deslizamiento adverso (0.013%) y descuenta comisión en mercados fuera de la lista "0 Fees" (supuesto 0.06% por lado, por verificar). Copia anterior: `lab.py.bak-1007`. No toca el bot real.
+- [ ] Aún falta del paper realista: funding, retraso de ejecución y que la orden límite solo se llene si el precio la tocó.
 - [ ] Bajar datos de velas 1m de Nivel 1 y 2.
 - [ ] Datos de operaciones (delta) de Binance para las monedas que existan allá.
 - [ ] Motor de pruebas común (reusar `Bitunix Proyecto/auditoria`).
