@@ -27,14 +27,25 @@ Crea reels verticales MP4 (1080×1920, 30fps) usando `~/.claude/skills/reels-ani
 ## Flujo de trabajo
 
 1. **Entender el input:** la usuaria da un guion, una idea o un tema. Si es una idea vaga, genera tú el guion.
-2. **Diseñar las escenas:** 5-8 escenas de 2-4 s cada una (total 15-30 s). Cada escena tiene `texto` corto (máx 8 palabras), `emoji` opcional y `subtitulo` opcional.
-3. **Generar el JSON de config:** sigue exactamente el schema de abajo.
-4. **Escribir el JSON** a un archivo en `/tmp/reel_config.json`.
-5. **Ejecutar el script:**
+2. **Preguntar si tiene fotos:** si quiere usar fotos de Luna y Popi, pedirle que las suba (arrastre al chat en Claude Code desktop, o dé las rutas si ya están en el sistema).
+3. **Diseñar las escenas:** 5-8 escenas de 2-4 s (total 15-30 s). Intercalar: 1 escena intro sin foto → 2-3 escenas con foto → 1 outro sin foto.
+4. **Asignar fotos:** cada escena con foto lleva `"imagen": "/ruta/foto.jpg"`.
+5. **Generar el JSON** y escribirlo en `/tmp/reel_config.json`.
+6. **Ejecutar el script** con audio:
    ```bash
-   python3 ~/.claude/skills/reels-animados/scripts/crear_reel.py /tmp/reel_config.json -o ~/reel_output.mp4
+   python3 ~/.claude/skills/reels-animados/scripts/crear_reel.py /tmp/reel_config.json \
+     -o ~/reel_output.mp4 --lofi
+   # O con música propia:
+   python3 ~/.claude/skills/reels-animados/scripts/crear_reel.py /tmp/reel_config.json \
+     -o ~/reel_output.mp4 --audio /ruta/cancion.mp3 --volume 0.3
    ```
-6. **Reportar** la ruta del MP4 generado y ofrecer ajustes.
+7. **Reportar** la ruta del MP4 y ofrecer ajustes.
+
+### Cómo subir fotos al sistema
+
+- **Claude Code desktop:** arrastra la foto al chat — Claude la recibe en una ruta temporal
+- **Terminal:** `cp ~/Downloads/luna.jpg /tmp/luna.jpg` y luego pasar esa ruta en el JSON
+- **Múltiples fotos:** recomendable meterlas en una carpeta: `/tmp/fotos_perritas/`
 
 ## Schema del JSON de configuración
 
@@ -43,6 +54,7 @@ Crea reels verticales MP4 (1080×1920, 30fps) usando `~/.claude/skills/reels-ani
   "titulo": "Nombre del reel",
   "escenas": [
     {
+      "imagen": "/ruta/absoluta/foto.jpg",
       "texto": "Texto principal corto",
       "subtitulo": "Texto secundario opcional más largo",
       "emoji": "🐾",
@@ -52,6 +64,14 @@ Crea reels verticales MP4 (1080×1920, 30fps) usando `~/.claude/skills/reels-ani
   ]
 }
 ```
+
+**Campo `imagen` (opcional):** ruta absoluta a una foto JPG/PNG. Si se provee:
+- La foto se usa como fondo completo de la escena (modo *cover*, recorte centrado)
+- Se aplica un gradiente oscuro en la mitad inferior para que el texto sea legible
+- El `emoji` se omite (ya hay foto de fondo)
+- Si la ruta no existe, cae back a fondo de color automáticamente
+
+**Escenas sin `imagen`:** fondo de color/gradiente según el `estilo`.
 
 ## Reglas de guionismo
 
