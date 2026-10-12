@@ -57,6 +57,13 @@ Un bot de terceros ("Búho Bot") muestra ideas útiles. Sus cifras (64%, 71%) so
 - La que sobrevive a destrucción entra **sola** a paper realista (comisión normal, costos x1.5, 1 vela de retraso, solo operaciones cerradas). Mínimo 28 días y 30 operaciones; si gana queda "lista para tu OK". **Tu OK es solo para el real.**
 - Resultados: [[Oficoda - resultados]].
 
+## Ala de Fondeo (decisiones 2026-10-07)
+- Activos: MNQ, MES, MYM y micro oro (MGC). Sin minis. Cuentas 25K y 50K. Datos desde el MT5 de AMP (por contrato, hay que unirlos).
+- Firmas: Lucid, Topstep, Blue Guardian, Tradeify, Apex, FundedNext. Reglas en [[Fondeo - reglas de firmas]]. Más adelante, ranking de firmas por costos.
+- Meta: un **informe completo por estrategia** (reglas fijas, riesgo, métricas, prueba de evaluación, plan manual o bot). Igual para Bitunix y futuros.
+- Estudiantes (poco a poco): Drive = cursos de order flow (Fabio Valentino, Adrianus Flow, Axia footprint, gexbot, POC traders). Disco `D:\Descargas MEGA` = Gerard (García y Hardscalping), Cluti (FX y Directos), BeLikeTheAlgo 2.0, Daniel Curto (DCM) y LIBROS. Unos 440 videos, ~93 GB.
+- Orden: primero la Oficoda completa y trabajando; después el ala de fondeo.
+
 ## Pendiente
 - [x] Corregir el error del paper en `bitunix-lab` (2026-10-07): ahora solo mira velas cerradas DESPUÉS de la señal, entra con deslizamiento adverso (0.013%) y descuenta comisión en mercados fuera de la lista "0 Fees" (supuesto 0.06% por lado, por verificar). Copia anterior: `lab.py.bak-1007`. No toca el bot real.
 - [ ] Aún falta del paper realista: funding, retraso de ejecución y que la orden límite solo se llene si el precio la tocó.

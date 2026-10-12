@@ -1,0 +1,140 @@
+# Arena · Registro
+_Actualizado 2026-10-12 15:16 por Ñico, con lo que anotan La Caridad (Bitunix) y Mercedes (Futuros)._
+
+## Funcionando
+
+## En observación
+- **Combo Strategy 123 Reversal & Donchian Channel Width** (bitunix, Escuela (demo sin validar)) — pasada a la arena desde el demo anterior
+- **DAX 9-10 Breakout Strategy** (bitunix, Escuela (demo sin validar)) — pasada a la arena desde el demo anterior
+- **Turtle Trader Strategy** (bitunix, Escuela (demo sin validar)) — pasada a la arena desde el demo anterior
+- **DC Breakout Strategy** (bitunix, Escuela (demo sin validar)) — pasada a la arena desde el demo anterior
+- **London Session Breakout Strategy** (futuros, Escuela (candidata anterior)) — pasada a la arena desde las candidatas anteriores (oro incluido)
+- **Ruptura de Bollinger con ATR [por piezas]** (bitunix, ella (vía Yaima)) — aprobada en revisión · activos: SPCXUSDT, CLUSDT, XAGUSDT, SUSDT, NEARUSDT, SNDKUSDT
+- **Scalp rango estrecho 5m (comprar abajo, vender arriba)** (bitunix, ella (vía Yaima)) — 19 de 100 operaciones · neto $-15.56
+- **Ruptura del rango de apertura** (futuros, ella (vía Yaima)) — aprobada en revisión · activos: MES, MGC, MYM, MNQ
+- **RupturaRangoApertura** (futuros, ella (vía Yaima)) — aprobada en revisión · activos: MES, MGC, MYM, MNQ
+- **Fade Apertura 5m** (futuros, ella (vía Yaima)) — aprobada en revisión · activos: MYM, MGC, MNQ, MES
+- **Ruptura Apertura 5m** (futuros, ella (vía Yaima)) — aprobada en revisión · activos: MGC, MES, MNQ, MYM
+- **Scalp barrido y recuperacion 1m** (bitunix, ella (vía Yaima)) — 61 de 100 operaciones · neto $-56.00
+- **Scalp vuelta al VWAP** (bitunix, ella (vía Yaima)) — aprobada en revisión · activos: DOGEUSDT, SOLUSDT, XRPUSDT, MAGICUSDT
+- **Compra MA20 + Volumen ↑** (futuros, ella (vía Yaima)) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **Scalp rebote en banda de Bollinger 1m** (bitunix, ella (vía Yaima)) — 6 de 100 operaciones · neto $-10.60
+- **MSS sweep con retroceso al 50%** (bitunix, ella (vía Yaima)) — aprobada en revisión · activos: SOLUSDT, ZECUSDT, SPCXUSDT, KORUUSDT, XAUUSDT, SUIUSDT
+- **rango apertura fallido + tarde 30m** (futuros, Yoel) — aprobada en revisión · activos: MES, MNQ, MYM, MGC
+- **impulso volumen + solo cortos 5m** (futuros, Yoel) — aprobada en revisión · activos: MYM, MES, MNQ, MGC
+- **cruce medias + tarde 5m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **Pullback a EMA con filtro ADX** (bitunix, ella (vía Yaima)) — aprobada en revisión · activos: NEARUSDT, SUSDT, MAGICUSDT, SPCXUSDT, SUIUSDT, LINKUSDT
+- **Ruptura de Bollinger con ATR** (bitunix, ella (vía Yaima)) — aprobada en revisión · activos: SPCXUSDT, CLUSDT, XAGUSDT, SUSDT, NEARUSDT, SNDKUSDT
+- **EMA 50/200 cruce dorado cripto** (bitunix, ella (vía Yaima)) — aprobada en revisión · activos: ETHUSDT, FILUSDT, NEARUSDT, SNDKUSDT, SKHYNIXUSDT, BTCUSDT
+- **ruptura canal + solo largos 15m · trailing** (bitunix, Pepito) — aprobada en revisión · activos: TRUMPUSDT, 1000PEPEUSDT, WIFUSDT, BRETTUSDT, DOGEUSDT, FARTCOINUSDT
+- **pullback ema + tendencia en contra 5m** (bitunix, Raúl) — 1 de 100 operaciones · neto $-3.17
+- **impulso media hora + direccion dia previo 3m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **bollinger ruptura + tarde 30m** (futuros, Yoel) — aprobada en revisión · activos: MES, MYM, MNQ, MGC
+- **volumen climax + tendencia marco mayor 15m** (bitunix, Raúl) — aprobada en revisión · activos: SNDKUSDT, XAGUSDT, SPCXUSDT, LINKUSDT
+- **volumen climax 4h** (bitunix, Raúl) — aprobada en revisión · activos: SKHYNIXUSDT, KORUUSDT, SNDKUSDT, CLUSDT, MAGICUSDT, SPCXUSDT
+- **momentum + volatilidad alta 1m · trailing** (bitunix, Pepito) — 16 de 100 operaciones · neto $-20.94
+- **gap apertura 15m** (bitunix, Raúl) — aprobada en revisión · activos: BTCUSDT, NEARUSDT, XAUUSDT, STRKUSDT, WUSDT, CLUSDT
+- **zscore media 5m · trailing** (bitunix, Pepito) — aprobada en revisión · activos: DOGEUSDT, TRUMPUSDT, FARTCOINUSDT, 1000FLOKIUSDT, 1000PEPEUSDT, WIFUSDT
+- **bloque orden 15m** (bitunix, Raúl) — aprobada en revisión · activos: XAUUSDT, XAGUSDT, XRPUSDT, ETHUSDT, SPCXUSDT, SUSDT
+- **expansion rango 15m · trailing** (bitunix, Pepito) — 3 de 100 operaciones · neto $-4.86
+- **nivel dia previo + contra marco mayor 15m** (bitunix, Raúl) — aprobada en revisión · activos: ENAUSDT, DOGEUSDT, BTCUSDT, ZECUSDT, CLUSDT, XRPUSDT
+- **volumen climax 15m** (bitunix, Raúl) — 1 de 100 operaciones · neto $+0.69
+- **impulso volumen 5m · trailing** (bitunix, Pepito) — aprobada en revisión · activos: DOGEUSDT, FARTCOINUSDT, BRETTUSDT
+- **rango apertura fallido + volatilidad baja 15m** (bitunix, Raúl) — 1 de 100 operaciones · neto $-2.21
+- **ruptura canal 15m · trailing** (bitunix, Pepito) — 4 de 100 operaciones · neto $-10.08
+- **fvg retroceso 1m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **rsi extremo + tras primera media hora 5m** (futuros, Yoel) — aprobada en revisión · activos: MGC, MNQ, MYM, MES
+- **impulso media hora + tendencia marco mayor 15m** (futuros, Yoel) — aprobada en revisión · activos: MYM, MNQ, MES, MGC
+- **reversion extension + volatilidad baja 5m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **vp regla80 + tendencia a favor 30m** (bitunix, Raúl) — aprobada en revisión · activos: CLUSDT, MAGICUSDT, NEARUSDT, SOLUSDT, ZECUSDT, XAGUSDT
+- **barra interior 15m** (bitunix, Raúl) — 1 de 100 operaciones · neto $-2.17
+- **impulso volumen 3m · trailing** (bitunix, Pepito) — 1 de 100 operaciones · neto $-2.69
+- **bollinger ruptura + volumen 15m** (bitunix, Raúl) — aprobada en revisión · activos: SKHYNIXUSDT, MAGICUSDT, KORUUSDT, STRKUSDT, ZECUSDT, SNDKUSDT
+- **ruptura canal + tendencia a favor 3m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **expansion rango + tendencia marco mayor 3m · trailing** (bitunix, Pepito) — 10 de 100 operaciones · neto $-18.01
+- **ruptura fallida + volatilidad baja 4h** (bitunix, Raúl) — aprobada en revisión · activos: SNDKUSDT, SKHYNIXUSDT, ENAUSDT, XRPUSDT, SUIUSDT, XAGUSDT
+- **impulso volumen 1m · trailing** (bitunix, Pepito) — 11 de 100 operaciones · neto $-18.43
+- **vp iman poc + volumen 5m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **fvg retroceso + volumen 15m** (bitunix, Raúl) — aprobada en revisión · activos: XAUUSDT, BTCUSDT, SPCXUSDT, SKHYNIXUSDT, LINKUSDT, SNDKUSDT
+- **impulso volumen + contra marco mayor 5m · trailing** (bitunix, Pepito) — aprobada en revisión · activos: DOGEUSDT
+- **vp rechazo borde + volumen 30m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **estocastico + contra marco mayor 15m** (bitunix, Raúl) — 6 de 100 operaciones · neto $-16.80
+- **momentum + tendencia a favor 3m · trailing** (bitunix, Pepito) — 9 de 100 operaciones · neto $-15.16
+- **Grid & Range Trading with Stops [por piezas]** (futuros, ella (vía Yaima)) — aprobada en revisión · activos: MYM, MNQ, MES, MGC
+- **Grid & Range Trading with Stops** (bitunix, ella (vía Yaima)) — 18 de 100 operaciones · neto $-14.98
+- **estrechamiento rango + solo largos 5m** (bitunix, Raúl) — 11 de 100 operaciones · neto $-19.45
+- **Stop Loss & Take Profit 1:2 RR (Crypto ejemplo BTC)** (bitunix, ella (vía Yaima)) — 8 de 100 operaciones · neto $-2.31
+- **pullback ema 1h** (bitunix, Raúl) — aprobada en revisión · activos: SUIUSDT, SOLUSDT, FILUSDT, DOGEUSDT, XAGUSDT, ETHUSDT
+- **barra interior + contra marco mayor 5m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **momentum + volumen 1m · trailing** (bitunix, Pepito) — 24 de 100 operaciones · neto $-24.18
+- **rsi extremo 2h** (bitunix, Raúl) — aprobada en revisión · activos: SPCXUSDT, SNDKUSDT, KORUUSDT, LINKUSDT, SUIUSDT, XRPUSDT
+- **ruptura fallida 2h** (bitunix, Raúl) — 1 de 100 operaciones · neto $-2.18
+- **fvg retroceso 1h** (bitunix, Raúl) — aprobada en revisión · activos: SOLUSDT, LINKUSDT, XRPUSDT, ETHUSDT, ZECUSDT, SUIUSDT
+- **expansion rango + tendencia a favor 15m · trailing** (bitunix, Pepito) — 6 de 100 operaciones · neto $-7.29
+- **vp rechazo borde 3m** (bitunix, Raúl) — 1 de 100 operaciones · neto $+1.71
+- **rango apertura fallido + tendencia a favor 1m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **impulso volumen 15m · trailing** (bitunix, Pepito) — aprobada en revisión · activos: WIFUSDT, BRETTUSDT, DOGEUSDT, 1000PEPEUSDT, TRUMPUSDT, FARTCOINUSDT
+- **barra interior + tendencia en contra 15m** (futuros, Yoel) — aprobada en revisión · activos: MNQ, MYM, MES
+- **Mean Reversion Strategy for Futures** (futuros, ella (vía Yaima)) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **pullback ema 5m** (bitunix, Raúl) — 8 de 100 operaciones · neto $+13.59
+- **rango apertura + volatilidad alta 3m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **rango apertura + no ultima media hora 5m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **cruce medias + tras primera media hora 5m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **fvg retroceso + tras primera media hora 3m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **zscore media + tendencia en contra 1m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **Mean Reversion con VWAP y Bandas de Desviación Estándar [por** (futuros, ella (vía Yaima)) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+- **Mean Reversion con VWAP y Bandas de Desviación Estándar** (futuros, ella (vía Yaima)) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
+
+## Basura (con razones)
+- 2026-10-12 13:56 · **Memecoin Scalping Strategy** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 13:05 · **Liquidity Sweep Reversal Strategy** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 12:38 · **Bearish Previous Day Low breakdown** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 12:32 · **Bearish Previous Day Low Breakdown Retest** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 12:32 · **Bearish Previous Day Low Breakdown Retest** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 12:31 · **Bullish Previous Day High Breakout Retest** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 12:31 · **Bullish Previous Day High Breakout Retest** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 12:27 · **Bullish PDH retest breakout** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 12:07 · **reversion extension 15m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 12:06 · **momentum + volatilidad baja 15m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 12:04 · **vwap reversion 3m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 12:04 · **Ejemplo 1: BTC largo 3% SL 6% TP** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 12:00 · **bloque orden + volumen 5m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:59 · **vp iman poc 5m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:57 · **Failed Breakout Reversal** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:57 · **Failed Breakout Reversal** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:50 · **Previous Day High / Low Short** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:47 · **momentum 1m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:44 · **vwap reversion 3m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:40 · **vp ruptura valor + tendencia en contra 3m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:39 · **zscore media 5m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:36 · **Band Breakout on a Trend Day** (futuros) — rechazada en revisión: mira el futuro: su señal cambia cuando se recortan las velas posteriores
+- 2026-10-12 11:34 · **zscore media + tendencia a favor 3m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:32 · **vp rechazo borde + direccion dia previo 5m** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:32 · **momentum 3m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:30 · **pullback ema + volatilidad alta 15m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:30 · **vp iman poc + direccion dia previo 2h** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:30 · **vp rechazo borde + tendencia marco mayor 4h** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:28 · **vela barrido + tras primera media hora 1m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: costo
+- 2026-10-12 11:27 · **vp ruptura valor + rango dia previo 5m** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:26 · **Mean Reversion Strategy for Futures [por piezas]** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:26 · **Mean Reversion Strategy for Futures [por piezas]** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:24 · **zscore media 5m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:23 · **vela barrido + volatilidad alta 5m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:22 · **expansion rango + rango dia previo 5m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:19 · **expansion rango + contra marco mayor 15m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:19 · **rsi extremo 30m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:18 · **Intraday Bitcoin Range Compression Strategy** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:18 · **vp iman poc + tendencia en contra 3m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:16 · **rango apertura + contra marco mayor 1h** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:14 · **momentum 3m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:12 · **vp iman poc 3m** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:10 · **impulso volumen + solo largos 3m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:08 · **rsi extremo + tendencia marco mayor 5m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:08 · **ruptura canal + rango dia previo 3m · trailing** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · DOGEUSDT: actividad; 1000PEPEUSDT: actividad; FARTCOINUSDT: actividad; TRUMPUSDT: actividad
+- 2026-10-12 11:08 · **Ruptura rango apertura - regla básica** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:07 · **Ruptura rango apertura - versión ATR** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:07 · **RupturaRangoApertura** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:07 · **Silver Bullet cripto (barrido + MSS + FVG)** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: actividad; ETHUSDT: actividad; SOLUSDT: actividad; XRPUSDT: actividad
+- 2026-10-12 11:06 · **Venta MA20 + Volumen ↓** (futuros) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · MES: actividad; MNQ: actividad; MYM: actividad; MGC: actividad
+- 2026-10-12 11:06 · **Scalp micro-momentum 1m (ruptura de 5 velas)** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: costo; ETHUSDT: costo; SOLUSDT: costo; XRPUSDT: costo
+- 2026-10-12 11:06 · **Scalp pullback a EMA9 en micro-tendencia 1m** (bitunix) — rechazada en revisión: ningún activo encaja (opera muy poco o demasiado, o el costo se come el objetivo) · BTCUSDT: costo; ETHUSDT: actividad; SOLUSDT: costo; XRPUSDT: actividad
