@@ -1,5 +1,5 @@
 # Arena · Registro
-_Actualizado 2026-10-13 10:54 por Ñico, con lo que anotan La Caridad (Bitunix) y Mercedes (Futuros)._
+_Actualizado 2026-10-13 10:56 por Ñico, con lo que anotan La Caridad (Bitunix) y Mercedes (Futuros)._
 
 ## Funcionando
 - **vp iman poc + volumen 5m** (futuros, Yoel) — 1 cuenta(s) fondeada(s), 0 quemada(s)
@@ -27,7 +27,7 @@ _Actualizado 2026-10-13 10:54 por Ñico, con lo que anotan La Caridad (Bitunix) 
 - **impulso media hora + direccion dia previo 3m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
 - **bollinger ruptura + tarde 30m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
 - **volumen climax + tendencia marco mayor 15m** (bitunix, Raúl) — 1 de 100 operaciones · neto $-2.80
-- **volumen climax 4h** (bitunix, Raúl) — 1 de 100 operaciones · neto $-3.20
+- **volumen climax 4h** (bitunix, Raúl) — 2 de 100 operaciones · neto $-3.10
 - **gap apertura 15m** (bitunix, Raúl) — 2 de 100 operaciones · neto $-0.07
 - **zscore media 5m · trailing** (bitunix, Pepito) — 57 de 100 operaciones · neto $-46.34
 - **bloque orden 15m** (bitunix, Raúl) — 4 de 100 operaciones · neto $+8.56
@@ -76,7 +76,7 @@ _Actualizado 2026-10-13 10:54 por Ñico, con lo que anotan La Caridad (Bitunix) 
 - **gap apertura 5m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
 - **expansion rango 3m · trailing** (bitunix, Pepito) — 23 de 100 operaciones · neto $-21.63
 - **rango apertura fallido + volatilidad baja 1m** (bitunix, Raúl) — 1 de 100 operaciones · neto $-3.20
-- **momentum + solo cortos 1m · trailing** (bitunix, Pepito) — 6 de 100 operaciones · neto $-3.83
+- **momentum + solo cortos 1m · trailing** (bitunix, Pepito) — 7 de 100 operaciones · neto $-5.41
 - **expansion rango 15m** (bitunix, Raúl) — aprobada en revisión · activos: XAUUSDT, SKHYNIXUSDT, SUSDT, WUSDT, KORUUSDT, SPCXUSDT
 - **VWAP Reclaim (Cross and Retest)** (futuros, ella (vía Yaima)) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
 - **cruce medias 3m** (futuros, Yoel) — cuenta #1 en curso · 0 fondeadas, 0 quemadas
