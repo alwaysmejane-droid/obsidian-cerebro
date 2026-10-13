@@ -2,7 +2,7 @@
 tags: [trading, oficoda]
 ---
 # Oficoda - índice
-_Lo mantiene Ñico (archivo). Actualizado 2026-10-12 15:17. Solo cubre las notas de La Oficoda; no toca el resto del vault._
+_Lo mantiene Ñico (archivo). Actualizado 2026-10-13 10:52. Solo cubre las notas de La Oficoda; no toca el resto del vault._
 
 Tema: [[Trading]]
 
@@ -15,12 +15,14 @@ Tema: [[Trading]]
 - [[Informes Bitunix]] — 4 informes, última modificación 2026-10-11 23:31
 - [[Informes futuros]] — 2 informes, última modificación 2026-10-09 08:32
 - [[Libros - principios para el trader]] — nota, última modificación 2026-10-07 16:38
-- [[Oficoda - catálogo de datos]] — nota, última modificación 2026-10-12 15:14
+- [[Oficoda - catálogo de datos]] — nota, última modificación 2026-10-13 10:51
 - [[Oficoda - fuentes de ideas]] — nota, última modificación 2026-10-12 10:13
-- [[Oficoda - plan 3D nuevo]] — nota, última modificación 2026-10-12 14:18
+- [[Oficoda - plan 3D nuevo]] — nota, última modificación 2026-10-12 22:18
+- [[Oficoda - plan cuenta propia + botones + ranking]] — nota, última modificación 2026-10-13 08:45
 - [[Oficoda - plan de mineros]] — nota, última modificación 2026-10-07 12:17
-- [[Oficoda - resultados]] — nota, última modificación 2026-10-12 15:17
+- [[Oficoda - resultados]] — nota, última modificación 2026-10-13 10:52
 - [[Oficoda - traspaso de sesión (2026-10-12)]] — nota, última modificación 2026-10-12 12:18
+- [[Oficoda - traspaso de sesión (2026-10-12b)]] — nota, última modificación 2026-10-12 16:26
 
 ## Dónde mirar según lo que quieras saber
 - ¿Qué estrategias sobrevivieron? → [[Estrategias rentables]]

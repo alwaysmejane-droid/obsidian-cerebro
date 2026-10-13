@@ -1,21 +1,21 @@
 # Oficoda - catálogo de datos
-_Lo mantiene Mireya (Datos). Actualizado 2026-10-12 15:14. Estas son las series con las que se hace todo backtest._
+_Lo mantiene Mireya (Datos). Actualizado 2026-10-13 10:51. Estas son las series con las que se hace todo backtest._
 
 | Serie | Mercado | Velas | Desde | Hasta | Días sin actualizar |
 |---|---|---|---|---|---|
-| BTCUSDT | bitunix | 64595 | 2026-08-28 | 2026-10-12 | 0.0 |
-| BZUSDT | bitunix | 64557 | 2026-08-28 | 2026-10-12 | 0.0 |
-| CLUSDT | bitunix | 64542 | 2026-08-28 | 2026-10-12 | 0.0 |
-| DOGEUSDT | bitunix | 64348 | 2026-08-28 | 2026-10-12 | 0.0 |
-| ETHUSDT | bitunix | 64629 | 2026-08-28 | 2026-10-12 | 0.0 |
-| SOLUSDT | bitunix | 64537 | 2026-08-28 | 2026-10-12 | 0.0 |
-| XAGUSDT | bitunix | 64549 | 2026-08-28 | 2026-10-12 | 0.0 |
-| XAUUSDT | bitunix | 64552 | 2026-08-28 | 2026-10-12 | 0.0 |
-| XRPUSDT | bitunix | 64536 | 2026-08-28 | 2026-10-12 | 0.0 |
-| MES_M1 | futuros | 2468937 | 2019-05-03 | 2026-10-12 | 0.1 |
-| MGC_M1 | futuros | 2580326 | 2018-04-30 | 2026-10-12 | 0.1 |
-| MNQ_M1 | futuros | 2469852 | 2019-05-03 | 2026-10-12 | 0.1 |
-| MYM_M1 | futuros | 2386408 | 2019-05-03 | 2026-10-12 | 0.1 |
+| BTCUSDT | bitunix | 64600 | 2026-08-29 | 2026-10-13 | 0.0 |
+| BZUSDT | bitunix | 64563 | 2026-08-29 | 2026-10-13 | 0.0 |
+| CLUSDT | bitunix | 64547 | 2026-08-29 | 2026-10-13 | 0.0 |
+| DOGEUSDT | bitunix | 64354 | 2026-08-29 | 2026-10-13 | 0.0 |
+| ETHUSDT | bitunix | 64634 | 2026-08-29 | 2026-10-13 | 0.0 |
+| SOLUSDT | bitunix | 64541 | 2026-08-29 | 2026-10-13 | 0.0 |
+| XAGUSDT | bitunix | 64552 | 2026-08-29 | 2026-10-13 | 0.0 |
+| XAUUSDT | bitunix | 64558 | 2026-08-29 | 2026-10-13 | 0.0 |
+| XRPUSDT | bitunix | 64541 | 2026-08-29 | 2026-10-13 | 0.0 |
+| MES_M1 | futuros | 2470012 | 2019-05-03 | 2026-10-13 | 0.1 |
+| MGC_M1 | futuros | 2581401 | 2018-04-30 | 2026-10-13 | 0.1 |
+| MNQ_M1 | futuros | 2470927 | 2019-05-03 | 2026-10-13 | 0.1 |
+| MYM_M1 | futuros | 2387478 | 2019-05-03 | 2026-10-13 | 0.1 |
 
 ## Alertas
 - Ninguna: todo está al día.
