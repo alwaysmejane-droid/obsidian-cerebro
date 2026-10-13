@@ -2,7 +2,7 @@
 tags: [trading, oficoda]
 ---
 # Lista de candidatas
-_Actualizada 2026-10-13 10:52 por Ñico. Todo lo que sobrevivió las pruebas de destrucción, con una recomendación breve. Ver también [[Estrategias rentables]] y [[Avisos Oficoda]]._
+_Actualizada 2026-10-13 10:57 por Ñico. Todo lo que sobrevivió las pruebas de destrucción, con una recomendación breve. Ver también [[Estrategias rentables]] y [[Avisos Oficoda]]._
 
 Total: 6. Candidata no significa aprobada: lo que cuenta es la prueba en vivo.
 
