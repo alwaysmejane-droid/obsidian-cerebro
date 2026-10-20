@@ -2,7 +2,7 @@
 tags: [trading, oficoda]
 ---
 # Lista de candidatas
-_Actualizada 2026-10-13 10:57 por Ñico. Todo lo que sobrevivió las pruebas de destrucción, con una recomendación breve. Ver también [[Estrategias rentables]] y [[Avisos Oficoda]]._
+_Actualizada 2026-10-19 15:18 por Ñico. Todo lo que sobrevivió las pruebas de destrucción, con una recomendación breve. Ver también [[Estrategias rentables]] y [[Avisos Oficoda]]._
 
 Total: 6. Candidata no significa aprobada: lo que cuenta es la prueba en vivo.
 
@@ -31,7 +31,7 @@ Total: 6. Candidata no significa aprobada: lo que cuenta es la prueba en vivo.
 
 
 ## London Session Breakout Strategy
-- **Recomendación:** En demo (día 4.1); esperar
+- **Recomendación:** En demo (día 7.0); esperar
 - **Mercado:** Futuros intradía · ['MES', 'MNQ', 'MYM', 'MGC'] · 5 min
 - **Resultado (fuera de muestra):** +0.27 R por operación, z 5.8, acierto 50% en 852 operaciones fuera de muestra
 - **Origen:** Minería (código abierto) / 137195
@@ -39,7 +39,7 @@ Total: 6. Candidata no significa aprobada: lo que cuenta es la prueba en vivo.
 - **Informe:** `Informes futuros/fi3864eb10_ea4f3.md`
 
 ## Swing diario · rsi extremo + solo largos
-- **Recomendación:** En demo (día 6 de 60, 1 operaciones cerradas); esperar
+- **Recomendación:** En demo (día 8 de 60, 1 operaciones cerradas); esperar
 - **Mercado:** Futuros swing (diario) · ['MES', 'MNQ', 'MYM'] · diario
 - **Resultado (fuera de muestra):** +0.22 R por operación, z 3.5, acierto 60% en 199 operaciones fuera de muestra; mantiene posiciones hasta 10 sesiones
 - **Origen:** Investigación (Yoel), marco diario 2000-hoy

@@ -24,3 +24,18 @@ _Cada vez que algo importante pasa (candidata, aprobación de Zoila, demo o pape
 
 - **2026-10-09 16:18 · BANCO** — Banco: No-Wick Retest Tendencial → NO PASA (1791577119)
   - 8.9 ops/día, fuera de muestra -0.12 R/op
+
+- **2026-10-13 22:09 · DATOS** — Datos sin actualizar: MGC_M1.npz
+  - Revisar la descarga (Bitunix o MT5 de AMP). Los backtests de esas series no están al día.
+
+- **2026-10-13 22:11 · DATOS** — Datos sin actualizar: MES_M1.npz, MGC_M1.npz
+  - Revisar la descarga (Bitunix o MT5 de AMP). Los backtests de esas series no están al día.
+
+- **2026-10-15 11:54 · DATOS** — Datos sin actualizar: MNQ_M1.npz
+  - Revisar la descarga (Bitunix o MT5 de AMP). Los backtests de esas series no están al día.
+
+- **2026-10-17 10:30 · DATOS** — Datos sin actualizar: BZUSDT, CLUSDT, XAGUSDT
+  - Revisar la descarga (Bitunix o MT5 de AMP). Los backtests de esas series no están al día.
+
+- **2026-10-17 10:53 · DATOS** — Datos sin actualizar: AAPLUSDT, AMDUSDT, BZUSDT, CLUSDT, GOOGLUSDT, INTCUSDT, MSTRUSDT, MUUSDT, MUUUSDT, NVDAUSDT, QQQUSDT, SNDKUSDT, XAGUSDT
+  - Revisar la descarga (Bitunix o MT5 de AMP). Los backtests de esas series no están al día.

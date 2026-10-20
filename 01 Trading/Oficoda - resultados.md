@@ -1,7 +1,7 @@
 ---
 tags: [trading]
 ---
-# Oficoda — resultados (2026-10-13 10:57)
+# Oficoda — resultados (2026-10-19 15:18)
 
 Generado solo por el runner (sin IA). Tema: [[Trading]] · Plan: [[Oficoda - plan de mineros]]
 
