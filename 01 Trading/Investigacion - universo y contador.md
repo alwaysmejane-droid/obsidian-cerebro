@@ -46,6 +46,10 @@ Las fechas exactas de corte de cada activo se registran en sus metadatos al vali
 
 - Regla: +1 cada vez que se prueba una regla, un parámetro, un activo o una temporalidad (incluye cada hipótesis, cada variante de sensibilidad y cada adenda de activo).
 - **Pruebas acumuladas al congelar: 0**
+- **Pruebas acumuladas tras el lote 1 (2026-10-20): 58**
+
+Registro del contador:
+- 2026-10-20 — Lote 1, H-002: 58 pruebas (BTC-USDT 29 + ETH-USDT 29: descubrimiento, validación, 26 combinaciones de sensibilidad y costos dobles, por activo). H-001: 0 (condicional, sin datos). H-003: 0 (devuelta en el Paso 3). **Total global: 58.**
 
 ## Adendas
 
