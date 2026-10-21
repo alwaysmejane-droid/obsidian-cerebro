@@ -55,3 +55,19 @@ La IA-B no edita esta nota: la lee y responde en la nota de auditoría.
 - **activos:** pendiente de universo (candidato de la familia: pares dentro de la misma fuente, a definir).
 - **timeframe:** 1 día.
 - **parámetros:** ventana 30 días; entrada ±2; stop 3; tiempo 30 velas.
+
+### H-004
+
+- **fecha:** 2026-10-20
+- **tipo:** estructura de precio
+- **razón:** la misma de H-002: las rupturas de máximo de largo plazo atraen compras de seguidores de tendencia y cierres de cortos. Mecanismo: liquidez en niveles conocidos. Nota: BTC-USDT ya apareció en la auditoría de H-002; el tramo fuera de muestra es la única prueba limpia.
+- **entrada:** cierre de la vela diaria que supera el máximo de los últimos 20 días.
+- **dirección:** solo largo.
+- **stop:** mínimo de los últimos 10 días.
+- **objetivo:** ninguno.
+- **salida por tiempo:** 20 velas diarias.
+- **gestión:** ninguna.
+- **tamaño:** 1 % del capital.
+- **activos:** BTC-USDT (OKX spot).
+- **timeframe:** 1 día.
+- **parámetros:** máximo 20 días; mínimo 10 días; tiempo 20 velas.
