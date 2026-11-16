@@ -1,0 +1,6 @@
+{
+  "start_hm": 945, "or_min": 5, "win_min": 120, "body_min": 0.5, "use_vwap": false,
+  "min_gap": 0.25, "max_gap": 0.0, "level_mid": true, "sl_atr": 1.0, "min_stop": 2.0,
+  "rr": 1.0, "reentry": true, "max_stop_pts": 0.0, "next_fvg": true, "atr_len": 14,
+  "risk_usd": 400.0, "tick": 0.25, "point_value": 2.0, "commission_per_side": 0.62, "slippage_ticks": 1
+}
